@@ -105,5 +105,9 @@ h3{
             word-wrap: normal;
             margin-bottom: 50px;
         }
+
+        .card{
+            max-width: 500px;
+        }
     }
 }
