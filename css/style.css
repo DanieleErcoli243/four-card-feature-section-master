@@ -80,3 +80,30 @@ h3{
         }
     }
 }
+
+/* media queries */
+
+@media screen and (min-width: 992px) {
+    .container {
+        max-width: 980px;
+        margin: 0 auto;
+        font-size: 1.5em;
+        
+        .intro,
+        .card {
+            line-height: 1.5;
+        }
+
+        .intro {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .intro p{
+
+            font-size: 0.5em;
+            word-wrap: normal;
+            margin-bottom: 50px;
+        }
+    }
+}
