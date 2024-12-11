@@ -37,4 +37,17 @@ h3{
         line-height: 2;
         margin-bottom: 4em;
     }
+
+    .card {
+        border-radius: 10px;
+        box-shadow: 0 10px 15px hsl(229, 6%, 66%);
+        margin-bottom: 2em; 
+        padding: 2em;
+        line-height: 2;
+
+        figure {
+            text-align: right;
+            margin-top: 1em;
+        }
+    }
 }
