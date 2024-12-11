@@ -110,12 +110,19 @@ h3{
             margin-bottom: 50px;
         }
 
-        .card{
-            max-width: 350px;
+        .row {
+            height: 50vh;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            margin: -10px;
 
-            p {
+            .card{
+                max-width: 350px;
+                
                 
             }
         }
+
     }
 }
