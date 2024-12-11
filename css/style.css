@@ -9,6 +9,7 @@
 /* generici */
 body {
     background-color: hsl(0, 0%, 98%);
+    font-family: "Poppins", sans serif;
 }
 
 h1,
@@ -18,9 +19,21 @@ h3{
 }
 
 
+/* utili */
+
+.font-weight {
+    font-weight: normal;
+}
+
+
 /* container */
 
 .container {
     max-width: 350px;
     margin: 0 auto;
+
+    .intro {
+        text-align: center;
+        line-height: 2;
+    }
 }
