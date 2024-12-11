@@ -35,5 +35,6 @@ h3{
     .intro {
         text-align: center;
         line-height: 2;
+        margin-bottom: 4em;
     }
 }
