@@ -54,6 +54,7 @@ h3{
 
 }
 
+
 /* container */
 
 .container {
@@ -114,14 +115,21 @@ h3{
 
         .row {
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             flex-wrap: wrap;
+            align-content: center;
             margin: 0 -20px;
-            
+            height: 700px;
 
             .col {
                 padding: 0 20px;
+                vertical-align: middle;
             }
+
+           .margin-top{
+                margin-top: 155px;
+            }
+
 
             .card{
                 max-width: 350px;
