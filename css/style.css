@@ -65,7 +65,7 @@ h3{
     .intro {
         text-align: center;
         line-height: 2;
-        margin-bottom: 4em;
+        margin: 4em 0;
     }
 
     .card {
@@ -103,6 +103,8 @@ h3{
         .intro {
             max-width: 500px;
             margin: 0 auto;
+
+            
             
         }
 
@@ -124,6 +126,9 @@ h3{
             .col {
                 padding: 0 20px;
                 vertical-align: middle;
+                h3 {
+                    font-size: 1em;
+                }
             }
 
            .margin-top{
